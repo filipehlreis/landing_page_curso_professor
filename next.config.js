@@ -1,4 +1,4 @@
-const withPlugins = require('next-compose-plugins')
-const optimizedImages = require('next-optimized-images')
+import withPlugins from 'next-compose-plugins'
+import optimizedImages from 'next-optimized-images'
 
-module.exports = withPlugins([optimizedImages])
+export default withPlugins([optimizedImages])
