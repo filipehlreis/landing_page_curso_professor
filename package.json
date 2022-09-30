@@ -2,6 +2,7 @@
   "name": "simple-nextjs-quick-start",
   "version": "1.0.0",
   "description": "Nextjs quick start",
+  "type": "module",
   "scripts": {
     "test": "jest --passWithNoTests",
     "lint": "eslint src",
